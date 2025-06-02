@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "ShortLynk - Your trusted URL Shortner ",
   description: "ShortLynk helps you to shorten yout Urls easily",
+   icons: {
+    icon: "/favicon.ico", // or /favicon.svg
+  },
 };
 
 export default function RootLayout({ children }) {
