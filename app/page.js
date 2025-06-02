@@ -1,35 +1,3 @@
-// import Image from "next/image";
-// import Link from "next/link";
-
-// import { Poppins } from "next/font/google";
-// const poppins = Poppins({
-//   subsets: ["latin"],
-//   weight: ["100", "400","700", "900"], // add other weights if needed
-// });
-
-// export default function Home() {
-//   return (
-//     <main className="bg-pink-100">
-//       <section className="grid grid-cols-2 h-[50vh]">
-//         <div className="flex flex-col gap-4 items-center justify-center">
-//           <p className={`text-3xl font-bold ${poppins.className}`}>The Best URL Shortner in the Market</p>
-//           <p className="px-30 text-center">We are the most straight forward URL Shortner in the world. Most of the URL Shortners will tack you or ask your details to login. We understand your needs</p>
-//           <div className='flex gap-3 justify-start'>
-//                 <Link href="/shorten"><button className=' text-white bg-pink-500 rounded-lg font-bold p-3 py-1'>Try Now</button></Link>
-//                 <Link href="/github"><button className='text-white bg-pink-500 rounded-lg font-bold p-3 py-1'>Github</button></Link>
-//             </div>
-//         </div>
-
-//         {/* Either use width={300} height={300} or fill={true} */}
-//         {/* but for fill put relative in its parent */}
-//         <div className="flex justify-start relative">
-//           <Image className="mix-blend-darken" alt="an Image of a vector" fill={true} src={"/vector.jpg"} />
-//         </div>
-
-//       </section>
-//     </main>
-//   );
-// }
 import Image from "next/image";
 import Link from "next/link";
 import { Poppins } from "next/font/google";
