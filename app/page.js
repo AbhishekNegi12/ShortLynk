@@ -58,11 +58,13 @@ export default function Home() {
                 Try Now
               </button>
             </Link>
-            <Link href="/github">
-              <button className="text-white bg-pink-500 rounded-lg font-bold p-3 py-1">
-                GitHub
-              </button>
-            </Link>
+            <a
+            href="https://github.com/AbhishekNegi12/ShortLynk.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white-800">
+            <button className="text-white font-bold bg-pink-500 rounded-lg p-3 py-1">Github</button>
+          </a>
           </div>
         </div>
 
