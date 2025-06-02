@@ -18,7 +18,7 @@ export default function Home() {
           </p>
           <p className="px-30 text-center">
             We are the most straightforward URL Shortener in the world. Most
-            other tools track you or ask for login — we don't.
+            other tools track you or ask for login — we do not.
           </p>
           <div className="flex gap-3 justify-start">
             <Link href="/shorten">
